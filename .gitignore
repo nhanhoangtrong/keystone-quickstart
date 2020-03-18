@@ -1,0 +1,28 @@
+.env
+
+*-error.log
+
+dist
+build
+.next
+.DS_Store
+logs
+coverage
+
+# Optional npm cache directory
+.npm
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+.now
+
+public/avatars
+public/uploads

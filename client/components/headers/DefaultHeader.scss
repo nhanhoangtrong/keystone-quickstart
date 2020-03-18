@@ -1,0 +1,18 @@
+@import '../../mixins';
+
+.default-header {
+  @include backgroundImage('/public/assets/header-bg.jpg');
+  min-height: 400px;
+
+  display: flex;
+  flex-flow: column nowrap;
+
+  &-nav {
+    flex: none;
+    border-bottom: 1px solid var(--gray);
+  }
+
+  &-search {
+    flex: 1;
+  }
+}

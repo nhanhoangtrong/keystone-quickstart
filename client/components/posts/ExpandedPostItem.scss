@@ -1,0 +1,30 @@
+.expanded-post-item {
+  &__image {
+    img {
+      cursor: pointer;
+      width: 100%;
+    }
+  }
+  &__title {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+
+    &::after {
+      content: '';
+      display: block;
+      margin-top: 0.5rem;
+      width: 30px;
+      height: 2px;
+      background-color: #d63939;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+  &__description {
+    text-align: justify;
+  }
+}

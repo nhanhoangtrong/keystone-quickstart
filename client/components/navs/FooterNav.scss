@@ -1,0 +1,27 @@
+.footer-nav {
+  &-title {
+    text-transform: uppercase;
+  }
+  &-indicator {
+    width: 30px;
+    height: 3px;
+    margin: 1rem 0;
+    background-color: var(--danger);
+  }
+
+  &-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  &-list-item {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--gray);
+    &:last-child {
+      border-bottom: none;
+    }
+    a {
+      color: var(--gray-dark);
+      font-weight: 300;
+    }
+  }
+}

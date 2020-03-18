@@ -1,0 +1,63 @@
+{
+  "name": "keystone-quickstart",
+  "description": "An KeystoneJS Quickstart to bootstraping development",
+  "private": true,
+  "version": "0.0.1",
+  "author": "nhanhoangtrong <nhanhoangtrong94@gmail.com>",
+  "repository": "https://github.com/nhanhoangtrong/keystone-quickstart",
+  "homepage": "https://github.com/nhanhoangtrong",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development DISABLE_LOGGING=true keystone dev",
+    "build": "cross-env NODE_ENV=production keystone build",
+    "lint": "eslint --fix client/**/*.js",
+    "start": "cross-env NODE_ENV=production keystone start",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-regular-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@keystonejs/adapter-mongoose": "^5.2.1",
+    "@keystonejs/app-admin-ui": "^5.9.1",
+    "@keystonejs/app-graphql": "^5.1.2",
+    "@keystonejs/app-next": "^5.1.1",
+    "@keystonejs/app-static": "^5.1.1",
+    "@keystonejs/auth-password": "^5.1.1",
+    "@keystonejs/fields": "^6.3.2",
+    "@keystonejs/fields-wysiwyg-tinymce": "^5.2.1",
+    "@keystonejs/file-adapters": "^6.0.0",
+    "@keystonejs/keystone": "^6.0.0",
+    "cross-env": "^7.0.0",
+    "cross-fetch": "^3.0.4",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.6.0",
+    "graphql-react": "^9.1.0",
+    "next": "^9.3.0",
+    "next-graphql-react": "^6.0.1",
+    "next-seo": "^4.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "babel-eslint": "^10.1.0",
+    "cypress": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1"
+  }
+}

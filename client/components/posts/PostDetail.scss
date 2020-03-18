@@ -1,0 +1,30 @@
+.post-detail {
+  &__thumbnail {
+    margin-bottom: 1rem;
+    img {
+      width: 100%;
+      height: unset !important;
+    }
+  }
+  &__title {
+    margin-bottom: 1rem;
+  }
+  &__description {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: justify;
+  }
+
+  &__content {
+    margin-bottom: 4rem;
+    text-align: justify;
+
+    img {
+      max-width: 100%;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+}

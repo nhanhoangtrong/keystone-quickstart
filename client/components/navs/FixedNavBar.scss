@@ -1,0 +1,10 @@
+.fixed-navbar {
+  transition: top 0.5s ease-in-out;
+
+  &--show {
+    top: 0;
+  }
+  &--hide {
+    top: -62px;
+  }
+}
