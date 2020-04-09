@@ -2027,16 +2027,16 @@
     webpack-dev-middleware "^3.7.2"
     webpack-hot-middleware "^2.25.0"
 
-"@keystonejs/app-graphql-playground@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@keystonejs/app-graphql-playground/-/app-graphql-playground-5.1.1.tgz#83a579cec9de2694e7c373429686d41da73885aa"
-  integrity sha512-QGZw4Z4HDQxVDXT56dmho1n+bEY2IrDSKz9JtmBumxKd0hbMOArP7ftd6fibQMEgWS/T3K7vhO69RtNGadChwg==
+"@keystonejs/app-graphql-playground@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@keystonejs/app-graphql-playground/-/app-graphql-playground-5.1.2.tgz#82857ce30dce1fe3bcd77c99d5fa47542452c0fd"
+  integrity sha512-A35xncQf9SlNvMCfbQI7IhzTOiFD/IcVb7SyrSUhaAL0oth9HffvyJUOakqyxpFo/GMbYX0WtPpS73gyZqkpyg==
   dependencies:
     "@apollographql/graphql-playground-html" "^1.6.24"
     "@apollographql/graphql-playground-react" "^1.7.32"
     "@keystonejs/logger" "^5.1.1"
-    "@keystonejs/session" "^5.1.1"
-    "@keystonejs/utils" "^5.2.2"
+    "@keystonejs/session" "^6.0.0"
+    "@keystonejs/utils" "^5.4.0"
     body-parser "^1.18.2"
     chalk "^2.4.2"
     "falsey" "^1.0.0"
@@ -2044,15 +2044,15 @@
     object-hash "^1.3.1"
     terminal-link "^1.3.0"
 
-"@keystonejs/app-graphql@^5.1.2":
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/@keystonejs/app-graphql/-/app-graphql-5.1.2.tgz#95d40ce661c1266c5b6b5d39a40bbcfc816808f8"
-  integrity sha512-iGT1D4RsjQEjbf8L5EbFBnXBqOUWf9qc97NeuoVQ+/+XP4ez+fDROyHAF3u0KNAxSaD9JjTVfdMfUnyim43/TQ==
+"@keystonejs/app-graphql@^5.1.3":
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@keystonejs/app-graphql/-/app-graphql-5.1.5.tgz#0df4d69be0685cc9f702da82dc2bcceb96d72690"
+  integrity sha512-SHz3l5kpVIV1DFDoutrz6CdskNvQ3hctfiOjJDR8JFtEygTa9NRvkwWtl1Uj/glwt5Qm6d4a7GJpqgTCVQN8gw==
   dependencies:
-    "@keystonejs/app-graphql-playground" "^5.1.1"
+    "@keystonejs/app-graphql-playground" "^5.1.2"
     "@keystonejs/logger" "^5.1.1"
-    "@keystonejs/session" "^5.1.1"
-    "@keystonejs/utils" "^5.2.2"
+    "@keystonejs/session" "^6.0.1"
+    "@keystonejs/utils" "^5.4.0"
     apollo-errors "^1.9.0"
     apollo-server-express "^2.10.1"
     cuid "^2.1.6"
@@ -2406,10 +2406,32 @@
     express "^4.17.1"
     express-session "^1.16.2"
 
+"@keystonejs/session@^6.0.0", "@keystonejs/session@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@keystonejs/session/-/session-6.0.1.tgz#3289405646b213218448a766beba347c46742ce5"
+  integrity sha512-HbkqyWBiqvUMohBZwdBjW+ytg/ebV41OdfFsCnEabmCMa7SiSwlhJG0jfLRtCWk8LVmp+JSJTo93GPO+JDLhdA==
+  dependencies:
+    body-parser "^1.18.2"
+    cookie "^0.3.1"
+    cookie-signature "^1.1.0"
+    express "^4.17.1"
+    express-session "^1.16.2"
+
 "@keystonejs/utils@^5.2.2":
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/@keystonejs/utils/-/utils-5.2.2.tgz#095ad4232fa535af8e1559349887356d9ecdc49b"
   integrity sha512-XZMawXmPhQJlYzxl+9tlrm8U9g6XSjx0SAiJ0p5+cJIY03yUshbQlDwyE1OIfavt+WaxXDcCF1rKSM2Cydf6XA==
+  dependencies:
+    "@babel/runtime" "^7.8.4"
+    p-is-promise "^3.0.0"
+    p-lazy "^3.0.0"
+    p-reflect "^2.1.0"
+    semver "^5.7.1"
+
+"@keystonejs/utils@^5.4.0":
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/@keystonejs/utils/-/utils-5.4.0.tgz#b2727182b4c2d11575b908a5c52372888c51adb4"
+  integrity sha512-sufALufMGN+f/jWz2R6JcxhqNIMuR2BAsiallfTV6IjJ6k8o8JDB5wCAO7Snu9Z2He+D/XmhC/GFbQIbACE9Nw==
   dependencies:
     "@babel/runtime" "^7.8.4"
     p-is-promise "^3.0.0"
