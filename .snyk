@@ -1,0 +1,440 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@keystonejs/app-admin-ui > @babel/core > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-admin-ui > html-webpack-plugin > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > slate > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > slate-react > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > react-color > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > @babel/types > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > autodll-webpack-plugin > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > babel-plugin-transform-define > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/file-adapters > cloudinary > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields-wysiwyg-tinymce > @keystonejs/build-field-types > inquirer > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-admin-ui > babel-preset-react-app > @babel/core > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > html-webpack-plugin > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > slate > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > slate-react > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > react-color > reactcss > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > react-color > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > knex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > autodll-webpack-plugin > webpack-merge > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > autodll-webpack-plugin > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > babel-plugin-transform-define > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > styled-jsx > @babel/types > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-admin-ui > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields-wysiwyg-tinymce > @keystonejs/build-field-types > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/build-field-types > inquirer > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/core > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > html-webpack-plugin > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > slate > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > slate-react > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > react-color > reactcss > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > react-color > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/adapter-knex > knex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > redux > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > webpack-bundle-analyzer > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > autodll-webpack-plugin > webpack-merge > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > styled-jsx > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/build-field-types > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > styled-components > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/build-field-types > inquirer > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/core > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > html-webpack-plugin > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/field-content > slate > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/field-content > slate-react > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > react-color > reactcss > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > react-color > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/keystone > @keystonejs/fields > @keystonejs/adapter-knex > knex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > styled-components > babel-plugin-styled-components > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/build-field-types > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > styled-components > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/build-field-types > inquirer > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/core > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > html-webpack-plugin > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > slate > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > slate-react > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > react-color > reactcss > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > react-color > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > knex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-parser > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > react-toast-notifications > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @arch-ui/options > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/build-field-types > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/build-field-types > inquirer > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/core > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > html-webpack-plugin > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > slate > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > slate-react > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > react-color > reactcss > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > react-color > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > knex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-parser > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-parser > graphql-language-service-types > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-language-service-types > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-parser > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @arch-ui/options > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > react-toast-notifications > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/build-field-types > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > styled-components > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/build-field-types > inquirer > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/core > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > html-webpack-plugin > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > slate > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > slate-react > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > react-color > reactcss > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-parser > graphql-language-service-types > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-language-service-types > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-parser > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-language-service-types > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-parser > graphql-language-service-types > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-language-service-types > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-types > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-toast-notifications > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/build-field-types > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > @keystonejs/build-field-types > inquirer > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/core > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-language-service-types > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-parser > graphql-language-service-types > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-language-service-types > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-types > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-language-service-types > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-language-service-types > graphql-config > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > react-toast-notifications > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > @keystonejs/build-field-types > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-next > next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-language-service-types > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/app-graphql > @keystonejs/app-graphql-playground > @apollographql/graphql-playground-react > graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-language-service-types > graphql-config > graphql-import > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-toast-notifications > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > @keystonejs/build-field-types > @preconstruct/hook > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > @arch-ui/pill > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-toast-notifications > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > @keystonejs/build-field-types > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > @arch-ui/pagination > @arch-ui/layout > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > react-toast-notifications > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > @arch-ui/options > react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > @keystonejs/build-field-types > @preconstruct/hook > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/field-content > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > @arch-ui/pagination > @arch-ui/button > @arch-ui/loading > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > @arch-ui/options > react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > @keystonejs/build-field-types > @preconstruct/hook > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > @arch-ui/pagination > @arch-ui/button > @arch-ui/loading > @arch-ui/typography > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > @keystonejs/build-field-types > @preconstruct/hook > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > @arch-ui/pagination > @arch-ui/button > @arch-ui/loading > @arch-ui/typography > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/app-admin-ui > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
+    - '@keystonejs/fields > @keystonejs/adapter-mongoose > @keystonejs/fields-mongoid > @keystonejs/adapter-knex > @keystonejs/keystone > @keystonejs/fields > @keystonejs/field-content > @keystonejs/build-field-types > @preconstruct/hook > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T23:45:07.837Z'
