@@ -38,7 +38,7 @@
     "dotenv": "^8.2.0",
     "graphql": "^14.6.0",
     "graphql-react": "^9.1.0",
-    "next": "^9.3.2",
+    "next": "^9.3.4",
     "next-graphql-react": "^6.0.1",
     "next-seo": "^4.4.0",
     "prop-types": "^15.7.2",
