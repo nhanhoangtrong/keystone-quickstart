@@ -29,7 +29,7 @@
     "@keystonejs/app-next": "^5.1.1",
     "@keystonejs/app-static": "^5.1.1",
     "@keystonejs/auth-password": "^5.1.1",
-    "@keystonejs/fields": "^6.3.2",
+    "@keystonejs/fields": "^7.0.0",
     "@keystonejs/fields-wysiwyg-tinymce": "^5.2.1",
     "@keystonejs/file-adapters": "^6.0.0",
     "@keystonejs/keystone": "^6.0.0",
