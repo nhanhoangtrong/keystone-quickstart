@@ -23,7 +23,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.9",
-    "@keystonejs/adapter-mongoose": "^5.2.1",
+    "@keystonejs/adapter-mongoose": "^9.0.2",
     "@keystonejs/app-admin-ui": "^5.9.1",
     "@keystonejs/app-graphql": "^5.1.2",
     "@keystonejs/app-next": "^5.1.1",
