@@ -32,7 +32,7 @@
     "@keystonejs/fields": "^6.3.2",
     "@keystonejs/fields-wysiwyg-tinymce": "^5.2.1",
     "@keystonejs/file-adapters": "^6.0.0",
-    "@keystonejs/keystone": "^6.0.0",
+    "@keystonejs/keystone": "^19.3.1",
     "cross-env": "^7.0.0",
     "cross-fetch": "^3.0.4",
     "dotenv": "^8.2.0",
