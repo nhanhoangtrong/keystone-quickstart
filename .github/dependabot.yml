@@ -1,0 +1,54 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "22:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@keystonejs/keystone"
+    versions:
+    - 18.1.0
+    - 19.0.0
+    - 19.1.0
+    - 19.2.0
+    - 19.2.1
+    - 19.3.0
+    - 19.3.1
+  - dependency-name: react-bootstrap
+    versions:
+    - 1.4.3
+    - 1.5.0
+    - 1.5.1
+  - dependency-name: "@keystonejs/app-graphql"
+    versions:
+    - 6.2.1
+    - 6.2.2
+    - 6.3.0
+  - dependency-name: "@keystonejs/app-admin-ui"
+    versions:
+    - 7.3.13
+    - 7.4.0
+    - 7.4.1
+    - 7.5.0
+  - dependency-name: "@keystonejs/adapter-mongoose"
+    versions:
+    - 10.1.2
+    - 11.0.0
+    - 11.0.1
+    - 11.1.0
+    - 11.2.0
+  - dependency-name: tinymce
+    versions:
+    - 5.6.2
+    - 5.7.0
+  - dependency-name: "@fortawesome/fontawesome-svg-core"
+    versions:
+    - 1.2.34
+  - dependency-name: "@fortawesome/free-regular-svg-icons"
+    versions:
+    - 5.15.2
+  - dependency-name: "@fortawesome/free-solid-svg-icons"
+    versions:
+    - 5.15.2
